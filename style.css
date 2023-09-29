@@ -1,0 +1,15 @@
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+h1 {
+    white-space: nowrap;
+    /* This ensures the text won't wrap to the next line */
+    overflow: hidden;
+    /* This hides any overflow */
+    text-overflow: ellipsis;
+    /* This will show '...' if the text overflows */
+}
